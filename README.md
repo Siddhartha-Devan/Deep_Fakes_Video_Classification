@@ -4,5 +4,5 @@ The model is based on conv3d layers. I have also tried a convlstm model which ga
 
 In the first step of preprocessing, I cut out the head and its surrounding regions from the complete video using mediapipe face recognition. 
 
-To train the model, I have only used the first 20 frames to check if a video is deepfake or original (I should have used atleast 50) due to limited computational power in my pc. (4gb gtx 1650)
+To train the model, I have only used the first 50 frames to check if a video is deepfake or original (even frames of first hundred... should have used more) due to limited computational power in my pc. (4gb gtx 1650)
 
