@@ -6,3 +6,5 @@ In the first step of preprocessing, I cut out the head and its surrounding regio
 
 To train the model, I have only used the first 50 frames to check if a video is deepfake or original (even frames of first hundred... should have used more) due to limited computational power in my pc. (4gb gtx 1650)
 
+I have also deployed the model in Streamlit and you can try it from the below link:
+https://deepfakesvideoclassification.streamlit.app/
